@@ -6,12 +6,20 @@ namespace aula2
     {
         static void Main(string[] args)
         {
-            int[] v = new int[] { 1, 2, 3, 4, 5 };
+            int[] v = new int[] { 5, 1, 3, 2, 2 };
 
-            int MaiorValorArray = Class1.MaiorValor(v);
+            //int MaiorValorArray = Class1.MaiorValor(v);
 
-            Console.WriteLine(MaiorValorArray);
+            //Console.WriteLine(MaiorValorArray);
 
+            int[] arrayOrdenado = Calculo.OrdenaArray(v);
+            
+            Console.WriteLine("Array Ordenado\n");
+            
+            foreach (int valores in arrayOrdenado)
+                Console.Write($"{valores} ");
+            
+            Console.ReadLine();
         }
     }
 }

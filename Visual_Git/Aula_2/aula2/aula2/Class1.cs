@@ -21,4 +21,29 @@ namespace aula2
             return aux;
         }
     }
+    class Calculo
+    {
+        public static int[] OrdenaArray(int[] v)
+        {
+            int i, j;
+            int N = v.Length;
+            for (j = 1; j < N; j++)
+            {
+                for (i = j; i > 0 && v[i] < v[i - 1]; i--)
+                {
+                    TrocarValores(v, i, i - 1);
+                }
+            }
+            return v;
+        }
+
+        public static int[] TrocarValores(int[] v, int m, int n)
+        {
+            int temp;
+            temp = v[m];
+            v[m] = v[n];
+            v[n] = temp;
+            return v;
+        }
+    }
 }

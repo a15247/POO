@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual_Git\\Project_1\\Project1\\Project1\\Project1.csproj",
+      "projectUniqueName": "C:\\Users\\João\\OneDrive\\Ambiente de Trabalho\\POO\\POO\\Visual_Git\\Project_1\\Project1\\Project1\\Project1.csproj",
       "projectName": "Project1",
-      "projectPath": "D:\\Visual_Git\\Project_1\\Project1\\Project1\\Project1.csproj",
+      "projectPath": "C:\\Users\\João\\OneDrive\\Ambiente de Trabalho\\POO\\POO\\Visual_Git\\Project_1\\Project1\\Project1\\Project1.csproj",
       "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual_Git\\Project_1\\Project1\\Project1\\obj\\",
+      "outputPath": "C:\\Users\\João\\OneDrive\\Ambiente de Trabalho\\POO\\POO\\Visual_Git\\Project_1\\Project1\\Project1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\João\\AppData\\Roaming\\NuGet\\NuGet.Config",
